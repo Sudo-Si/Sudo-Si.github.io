@@ -1,0 +1,19 @@
+*{background-color: red;}
+.eight-img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+
+}
+.eight-img img {
+    width:500px;
+    }
+
+     
+.h1 {
+    text-align: center;
+}
+.m8-txt-class {
+    text-align: center;
+}

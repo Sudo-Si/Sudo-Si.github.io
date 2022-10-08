@@ -9,7 +9,8 @@ let userQuestion = 'Will i go to the beach tomorrow?';
 userName? console.log(`Hello,${userName}`) && console.log (userQuestion):console.log('Hello'); 
 
 console.log(`${userName} asked ${userQuestion}`); 
-
+//      declaierd name  = element in html           
+const rock_div = document.getElementById("btn-flip"); // flip button
 //rounds the number off with math floor creating random number range between 1-8 
 
  let randomNumber = Math.floor(Math.random()*8); 
