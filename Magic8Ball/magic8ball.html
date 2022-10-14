@@ -8,21 +8,39 @@
     <title>Magic 8 Ball </title>
 </head>
 
-        <h1 class="h1"> Magic 8 Ball </h1>
-    <div class="eight-img"><img class="m8_img"src="./images/Magic8Ball.png" alt="magic 8 ball logo"></div>
-        
-        <div class="m8-txt-class"> 
-            <h3 id="user-input-heading">Ask the 8 ball a question</h3>
-            <input id="user-input" type="text" >
-            <div class="m8-txt-class"> 
-                <button class="btn" id="btn-flip"> Flip the ball</button>
-            </div>
+    <h1 class="h1"> Magic 8 Ball </h1>
+    <div class="eight-img">
+        <img class="m8_img"src="./images/Magic8Ball.png" alt="magic 8 ball logo">
     </div>
 
-
-    <div class="m8-txt-class m8-answer"> 
-        <h2 id="question "> Question</h2>
+    <div class="m8-txt-class"> 
+        <input id="question-input-box" type="text" >
+        <button class="btn" id="btn-shk" >Shake</button>
     </div>
-    <script src="./magic8.js"></script>
+
+    <div class="m8-txt-class"> 
+        <h3 id="ttl-head">Ask the 8 ball a question shake the ball and your answer will appear bellow</h3>
+      
+        </div>
+    
+    <div class ="question-text"> 
+        <h2 class="m8-txt-class m8-answer" id="user-input-question"></h2>
+   </div>
+
+       
+    
+       
+       <div class="m8-txt-class"> 
+       
+        <h3 id="m8-ball-answer"></h3>
+        </div>
+
+
+   
+    
+  
+      
+   
+    <script src="./magic8_active.js"></script>
 </body>
 </html>
