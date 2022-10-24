@@ -20,7 +20,7 @@ body{
     padding: auto;
     margin: auto;
 }
-h1{
+h1, h2{
     text-align: center;
 }
 .project-thumbnail{
@@ -90,4 +90,13 @@ h1{
     font-family: 'Space Mono', monospace;
   }
 
-  
+.cv-info{
+    min-height: 100vh;
+}
+
+.socials{
+display: grid;
+}
+.st{
+font-size: 5px;
+}
