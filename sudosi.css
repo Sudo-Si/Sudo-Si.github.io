@@ -6,9 +6,10 @@ body{
     font-family: 'Space Mono', monospace;
 }
 .project-thumbnails{
-    display: flex;
+    display: grid;
     align-items: center;
     justify-content: center;
+    /* min-height: 100vh; */
 
     
 }
@@ -16,6 +17,8 @@ body{
     width :600px;
     height: 500px;
     border-radius: 5%;
+    padding: auto;
+    margin: auto;
 }
 h1{
     text-align: center;
@@ -24,14 +27,17 @@ h1{
   
     display: grid;
     align-items: center;
-    padding: 2rem;
-    margin: 2rem;
+    justify-content: center;
+    padding: 5px;
+    margin: 5px;
    text-align: center;
+   min-height: 100vh;
+  
 }
 .nav{
 
     display:flex;
-    background-color: wheat;
+  
     width: auto;
     padding: 5px;
 }
@@ -44,3 +50,44 @@ h1{
     text-align: center;
     align-items: center;
 }
+.images{
+    display:block;
+    border: #131316;
+
+    width: 500px;
+    margin-left: 40%;
+    margin-right: auto;
+ 
+}
+.images img{
+
+   width:500px;
+  border-radius: 50%;
+   margin-left: center;
+   margin-right: auto;
+   opacity: .2;
+  
+}
+.images img:hover {
+    opacity: 1;
+}
+
+.hide {
+    display: none;
+  }
+  
+  .images img:hover + .hide {
+    display: block;
+    color: red;
+  }
+
+  .images img:active + .hide {
+    display: block;
+    color: red;
+    opacity: 1;
+  }
+  .btn{
+    font-family: 'Space Mono', monospace;
+  }
+
+  
