@@ -13,6 +13,12 @@ body{
 
     
 }
+.emp-section{
+    /* display: flex; */
+    /* justify-content: center; */
+}
+main{margin: auto;
+padding-left: 20px;}
 .project-thumbnails img{
     width :600px;
     height: 500px;
